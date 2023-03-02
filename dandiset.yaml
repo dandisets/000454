@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000454
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.3/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -30,19 +31,58 @@ assetsSummary:
   - TwoPhotonSeries
   - ImagingPlane
   - OpticalChannel
-citation: Rinehart, Duane (2023) Guide to the construction and use of an adaptive
-  optics two-photon microscope with direct wavefront sensing (Version draft) [Data
-  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Klienfeld, David; Yao, Pantong; Liu, Rui; Broginni, Thomas; Thunemann, Martin;
+  Rinehart, Duane (2023) Guide to the construction and use of an adaptive optics two-photon
+  microscope with direct wavefront sensing (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000454/draft
 contributor:
+- affiliation: []
+  email: dk@physics.ucsd.edu
+  includeInCitation: true
+  name: Klienfeld, David
+  roleName:
+  - dcite:Author
+  - dcite:ContactPerson
+  schemaKey: Person
+  url: http://ucsd.edu/
+- affiliation: []
+  email: p1yao@health.ucsd.edu
+  includeInCitation: true
+  name: Yao, Pantong
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: http://ucsd.edu/
+- affiliation: []
+  email: rul087@physics.ucsd.edu
+  includeInCitation: true
+  name: Liu, Rui
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: http://ucsd.edu/
+- affiliation: []
+  includeInCitation: true
+  name: Broginni, Thomas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: http://ucsd.edu/
+- affiliation: []
+  includeInCitation: true
+  name: Thunemann, Martin
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+  url: http://www.bu.edu/
 - affiliation: []
   email: duane.rinehart@gmail.com
   includeInCitation: true
   name: Rinehart, Duane
   roleName:
-  - dcite:ContactPerson
+  - dcite:DataCurator
   schemaKey: Person
 dateCreated: '2023-03-02T21:52:11.686223+00:00'
-datePublished: '2023-03-02T21:52:54.740302+00:00'
 description: Two-photon microscopy, combined with appropriate optical labeling, has
   enabled the study of structure and function throughout animals and their organ systems,
   especially nervous systems. This methodology enables, for example, the measurement
@@ -65,29 +105,22 @@ description: Two-photon microscopy, combined with appropriate optical labeling, 
   by imaging the morphology of somatostatin-expressing neurons that lie 700 µm beneath
   the pia, calcium dynamics of layer 5b projection neurons, and thalamocortical glutamate
   transmission to L4 neurons.
-doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000454/draft
 identifier: DANDI:000454
+keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000454/versions/draft/assets/
 name: Guide to the construction and use of an adaptive optics two-photon microscope
   with direct wavefront sensing
-publishedBy:
-  endDate: '2023-03-02T21:52:54.740302+00:00'
-  id: urn:uuid:6ddead84-bac8-4761-9686-fa405aa7d514
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2023-03-02T21:52:54.740302+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:5e90cb9b-54d9-4f77-878c-9911d80c496e
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000454/draft
 version: draft
+wasGeneratedBy: []
