@@ -34,8 +34,8 @@ assetsSummary:
 citation: Klienfeld, David; Yao, Pantong; Liu, Rui; Broginni, Thomas; Thunemann, Martin;
   University of California, San Diego; Boston University; University of California,
   San Diego (2023) Guide to the construction and use of an adaptive optics two-photon
-  microscope with direct wavefront sensing (Version draft) [Data set]. DANDI archive.
-  https://dandiarchive.org/dandiset/000454/draft
+  microscope with direct wavefront sensing (Version 0.230302.2331) [Data set]. DANDI
+  archive. https://doi.org/10.48324/dandi.000454/0.230302.2331
 contributor:
 - affiliation: []
   email: dk@physics.ucsd.edu
@@ -127,14 +127,15 @@ description: Two-photon microscopy, combined with appropriate optical labeling, 
   by imaging the morphology of somatostatin-expressing neurons that lie 700 µm beneath
   the pia, calcium dynamics of layer 5b projection neurons, and thalamocortical glutamate
   transmission to L4 neurons.
+doi: 10.48324/dandi.000454/0.230302.2331
 ethicsApproval: []
-id: DANDI:000454/draft
+id: DANDI:000454/0.230302.2331
 identifier: DANDI:000454
 keywords: []
 license:
 - spdx:CC0-1.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/000454/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/000454/0.230302.2331/assets.yaml
 name: Guide to the construction and use of an adaptive optics two-photon microscope
   with direct wavefront sensing
 protocol: []
@@ -155,6 +156,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.3
 studyTarget: []
-url: https://dandiarchive.org/dandiset/000454/draft
-version: draft
+url: https://dandiarchive.org/dandiset/000454/0.230302.2331
+version: 0.230302.2331
 wasGeneratedBy: []
