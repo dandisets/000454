@@ -32,7 +32,8 @@ assetsSummary:
   - ImagingPlane
   - OpticalChannel
 citation: Klienfeld, David; Yao, Pantong; Liu, Rui; Broginni, Thomas; Thunemann, Martin;
-  Rinehart, Duane (2023) Guide to the construction and use of an adaptive optics two-photon
+  University of California, San Diego; Boston University; University of California,
+  San Diego (2023) Guide to the construction and use of an adaptive optics two-photon
   microscope with direct wavefront sensing (Version draft) [Data set]. DANDI archive.
   https://dandiarchive.org/dandiset/000454/draft
 contributor:
@@ -75,14 +76,35 @@ contributor:
   - dcite:Author
   schemaKey: Person
   url: http://www.bu.edu/
-- affiliation: []
-  email: duane.rinehart@gmail.com
+- awardNumber: U24 EB028942
+  contactPoint: []
+  identifier: https://ror.org/0168r3w48
   includeInCitation: true
-  name: Rinehart, Duane
+  name: University of California, San Diego
   roleName:
-  - dcite:DataCurator
-  schemaKey: Person
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://ucsd.edu/
+- awardNumber: U19 NS123717
+  contactPoint: []
+  identifier: https://ror.org/05qwgg493
+  includeInCitation: true
+  name: Boston University
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://www.bu.edu/
+- awardNumber: U19 NS107466
+  contactPoint: []
+  identifier: https://ror.org/0168r3w48
+  includeInCitation: true
+  name: University of California, San Diego
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+  url: http://ucsd.edu/
 dateCreated: '2023-03-02T21:52:11.686223+00:00'
+datePublished: '2023-03-02T23:31:53.735293+00:00'
 description: Two-photon microscopy, combined with appropriate optical labeling, has
   enabled the study of structure and function throughout animals and their organ systems,
   especially nervous systems. This methodology enables, for example, the measurement
@@ -116,6 +138,18 @@ manifestLocation:
 name: Guide to the construction and use of an adaptive optics two-photon microscope
   with direct wavefront sensing
 protocol: []
+publishedBy:
+  endDate: '2023-03-02T23:31:53.735293+00:00'
+  id: urn:uuid:c5b0d82b-e823-4044-86bd-fc596384be61
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-03-02T23:31:53.735293+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:2287b0ae-2955-472d-b285-189a0377ed92
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
